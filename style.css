@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.navbar {
+    height: 100%;
+    width: 150px;
+    top:0;
+    position: fixed;
+    background-color: #500000;
+    border-right: 1px solid #bbb;
+    float: right;
+}
+.navbar a {
+    display: block;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: left;
+    border-bottom: 1px solid #bbb;
+    transition: 0.2s ease-in-out;
+}
+.navbar a:hover {
+    background-color: grey;
+}
+
+.main {
+    margin-left: 150px; /* Same as the width of the sidenav */
+    margin-top: 100px;
+    background-image: linear-gradient(#500000, grey);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+.main img {
+    position: absolute;
+    right: 15%;
+    top: 20px;
+    height: 75%;
+    width: auto;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.header {
+    margin-left: 150px;
+    width: calc(100% - 150px); /* prevent header overflow */
+    top: 0;
+    position: fixed; /* header stays at top */
+    height: 100px;
+    background-color: #500000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* p on left, img on right */
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 10;
+}
+
+.header p {
+    padding: 0;
+    margin-left: 20px;
+    font-size: 40px;
+}
+.header img {
+    object-fit: cover;
+    top: 10px;
+    right: 20px;
+}
+
+.aboutme{
+    position: absolute;
+    width: 45%;
+    
+    top: 20px;
+    background-color: white;
+    border: 1px solid black;
+    left : 40px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
