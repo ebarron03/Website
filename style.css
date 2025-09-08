@@ -46,6 +46,7 @@
     border: 1px solid black;
 }
 
+
 .header {
     margin-left: 150px;
     width: calc(100% - 150px); /* prevent header overflow */
@@ -85,8 +86,152 @@
     border-radius: 10px;
 }
 
+.academic {
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+    width: 35%;
+    left : 40px;
+    padding: 20px;
+    border-radius: 10px;
+}
 
+.academic ul {
+    list-style-type: none;
+    margin-left: 20px;
 
+}
+
+.academic a {
+    text-decoration: none;
+    color: black;
+}
+.planned_projects {
+    position: absolute;
+    width: 35%;
+    background-color: white;
+    border: 1px solid black;
+    left: calc(35% + 250px);
+    padding: 20px;
+    border-radius: 10px;
+}
+.planned_projects ul {
+    list-style-type: none;
+    margin-left: 20px;
+
+}
+.planned_projects li {
+    margin-bottom: 10px;
+}
+.linkedin {
+    position: absolute;
+    width: 35%;
+    top: calc(35% + 85px);
+    background-color: white;
+    border: 1px solid black;
+    left: calc(35% + 400px);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.linkedin ul {
+    list-style-type: none;
+    margin-left: 20px;
+}
+.linkedin li {
+    margin-bottom: 10px;
+}
+
+.education {
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+    width: 35%;
+    left : 40px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.completed {
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+    width: 35%;
+    left : 40px;
+    top: calc(25%);
+    padding: 20px;
+    border-radius: 10px;
+}
+.completed ul {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+.skills {
+    position: absolute;
+    width: 35%;
+    background-color: white;
+    border: 1px solid black;
+    left: calc(35% + 150px);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.skills ul {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+.planned {
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+    width: 35%;
+    left : calc(35% + 150px);
+    top: 20%;
+    padding: 20px;
+    border-radius: 10px;
+}
+.planned ul {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+.cat {
+
+    position: absolute;
+    width: 35%;
+    background-color: white;
+    border: 1px solid black;
+    left: 40px;
+    top: calc(55% + 20px);
+    padding: 20px;
+    border-radius: 10px;
+}
+.cat ul {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+.joshua {
+    position: absolute;
+    width: 35%;
+    background-color: white;
+    border: 1px solid black;
+    left: 40px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.uriah {
+    position: absolute;
+    width: 35%;
+    background-color: white;
+    border: 1px solid black;
+    left: calc(35% + 150px);
+    padding: 20px;
+    border-radius: 10px;
+}
 
 
 

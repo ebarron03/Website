@@ -3,208 +3,118 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Major Advancements in Computer Science</title>
+  <title>Home - Computer Science Advancements</title>
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
     body {
       font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
       background-color: #f4f4f4;
-      color: #333;
-    }
-
-    nav {
-      background-color: #003366;
-      padding: 15px 20px;
-    }
-
-    nav ul {
-      list-style: none;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 20px;
-    }
-
-    nav ul li a {
-      color: #fff;
-      text-decoration: none;
-      font-weight: bold;
-      font-size: 1rem;
-      padding: 8px 12px;
-    }
-
-    nav ul li a:hover {
-      background-color: #005792;
-      border-radius: 4px;
     }
 
     header {
-      background-color: #005792;
+      background-color: #222;
+      padding: 10px 0;
+    }
+
+    nav {
+      text-align: center;
+    }
+
+    nav a {
       color: white;
-      text-align: center;
-      padding: 30px 20px;
-    }
-
-    header h1 {
-      font-size: 2.5rem;
-      margin-bottom: 10px;
-    }
-
-    .container {
-      max-width: 1000px;
-      margin: 30px auto;
-      padding: 0 20px;
-    }
-
-    .prompt-box {
-      background-color: #e8e8e8;
-      border: 2px solid #ccc;
-      padding: 20px;
-      margin-bottom: 40px;
-      border-radius: 8px;
-    }
-
-    .prompt-box label {
-      font-weight: bold;
-      display: block;
-      margin-bottom: 10px;
-    }
-
-    textarea {
-      width: 100%;
-      height: 120px;
-      resize: none;
-      font-size: 1rem;
-      padding: 10px;
-      border: 1px solid #aaa;
-      border-radius: 4px;
-      background-color: #fff;
-      color: #333;
-    }
-
-    .card {
-      background-color: white;
-      border-left: 5px solid #005792;
-      padding: 20px;
-      margin-bottom: 30px;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    }
-
-    .card h2 {
-      color: #005792;
-      margin-bottom: 10px;
-    }
-
-    .chatgpt-link {
-      text-align: center;
-      margin-top: 30px;
-      font-size: 1rem;
-    }
-
-    .chatgpt-link a {
-      color: #005792;
-      font-weight: bold;
       text-decoration: none;
+      padding: 14px 20px;
+      display: inline-block;
     }
 
-    .chatgpt-link a:hover {
-      text-decoration: underline;
+    nav a:hover {
+      background-color: #444;
+    }
+
+    main {
+      padding: 40px;
+    }
+
+    h1 {
+      font-size: 32px;
+      text-align: center;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #333;
+      padding-bottom: 10px;
+    }
+
+    ul {
+      line-height: 1.8;
+      font-size: 18px;
+    }
+
+    .textbox {
+      border: 1px solid #ccc;
+      background-color: #fff;
+      padding: 15px;
+      margin-top: 40px;
+      font-style: italic;
+      white-space: pre-wrap;
     }
 
     footer {
-      background-color: #003366;
-      color: #ccc;
       text-align: center;
       padding: 20px;
       margin-top: 40px;
-      font-size: 0.9rem;
+      font-size: 14px;
+      color: #555;
     }
 
-    @media (max-width: 600px) {
-      nav ul {
-        flex-direction: column;
-        align-items: center;
-      }
+    footer a {
+      color: #0077cc;
+      text-decoration: none;
+    }
 
-      header h1 {
-        font-size: 2rem;
-      }
+    footer a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
 
   <!-- Navigation Bar -->
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="page2.html">Portfolio</a></li>
-      <li><a href="page3.html">Qualifications</a></li>
-      <li><a href="page4.html">Service</a></li>
-      <li><a href="page5.html">AI</a></li>
-      <li><a href="page6.html">Contact</a></li>
-    </ul>
-  </nav>
-
-  <!-- Header -->
   <header>
-    <h1>Major Advancements in Computer Science</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="page2.html">Portfolio</a>
+      <a href="page3.html">Qualifications</a>
+      <a href="page4.html">Service</a>
+      <a href="page5.html">AI</a>
+    </nav>
   </header>
 
-  <div class="container">
+  <!-- Main Content -->
+  <main>
+    <h1>Major Advancements in Computer Science</h1>
+    <ul>
+      <li><strong>Artificial Intelligence & Machine Learning:</strong> Revolutionizing decision-making, automation, and personalization in numerous industries.</li>
+      <li><strong>Quantum Computing:</strong> Exploring computation beyond classical limits to solve complex problems faster.</li>
+      <li><strong>Blockchain Technology:</strong> Enabling decentralized, secure, and transparent transactions across sectors.</li>
+      <li><strong>Cloud Computing:</strong> Delivering scalable infrastructure and on-demand services globally.</li>
+      <li><strong>Cybersecurity Innovations:</strong> Evolving defenses like zero-trust architectures and AI-driven threat detection.</li>
+      <li><strong>Human-Computer Interaction (HCI):</strong> Advancing AR/VR, voice control, and brain-computer interfaces.</li>
+    </ul>
 
-    <!-- Assignment Prompt Textbox -->
-    <div class="prompt-box">
-      <label for="prompt">Assignment Prompt:</label>
-      <textarea readonly id="prompt">
+    <!-- Prompt in a Text Box -->
+    <div class="textbox">
 I am a student studying Computer Science. I would like for you to create a webpage that contains some major advancements in this field. 
 The webpage should have a navigation bar with links to the following pages:
-index.html, page2.html, page3.html, page4.html, page5.html, page6.html
-and should be titled "Home", "Portfolio", "Qualifications", "Service", "AI", and "Contact" respectively.
-      </textarea>
+index.html, page2.html, page3.html, page4.html, page5.html 
+and should be titled "Home", "Portfolio", "Qualifications", "Service", "AI", respectively. 
+Please include a link to yourself as a citation somewhere on the webpage. Add this prompt in a text box some where on the webpage
     </div>
+  </main>
 
-    <!-- Major Advancements in CS -->
-    <div class="card">
-      <h2>1. Artificial Intelligence & Machine Learning</h2>
-      <p>AI and ML are transforming industries by enabling machines to learn, adapt, and make decisions — powering virtual assistants, self-driving cars, and personalized recommendations.</p>
-    </div>
-
-    <div class="card">
-      <h2>2. Quantum Computing</h2>
-      <p>Quantum computers use qubits to perform complex calculations exponentially faster than classical systems, promising breakthroughs in cryptography and drug discovery.</p>
-    </div>
-
-    <div class="card">
-      <h2>3. Blockchain Technology</h2>
-      <p>Blockchain ensures secure, decentralized record-keeping. It underpins cryptocurrencies like Bitcoin and has applications in finance, healthcare, and voting systems.</p>
-    </div>
-
-    <div class="card">
-      <h2>4. Cloud Computing</h2>
-      <p>Cloud services allow businesses to store and process data remotely, providing scalability, collaboration tools, and cost efficiency — vital for modern software infrastructure.</p>
-    </div>
-
-    <div class="card">
-      <h2>5. Cybersecurity Innovations</h2>
-      <p>Modern security includes AI-based threat detection, biometric login, and zero-trust frameworks, helping defend against increasing cyber threats across networks and systems.</p>
-    </div>
-
-    <!-- ChatGPT Link -->
-    <div class="chatgpt-link">
-      <p>Learn more or get help from <a href="https://chatgpt.com" target="_blank">ChatGPT</a></p>
-    </div>
-
-  </div>
-
+  <!-- Footer with Citation -->
   <footer>
-    &copy; 2025 | Computer Science Student Project
+    Page created with assistance from 
+    <a href="https://chat.openai.com/" target="_blank">ChatGPT by OpenAI</a>.
   </footer>
 
 </body>
